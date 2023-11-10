@@ -1,0 +1,10 @@
+.heroes-container{
+    overflow: auto;
+    max-height: 500px;
+    // display: flex;
+    // flex-direction: row;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}

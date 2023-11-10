@@ -1,0 +1,47 @@
+
+.search-container-wrapper{
+    display: flex;
+    height: 700px;
+    background-image: url(/@fs/F:/Personal/HeroesCards/HeroesCards/assets/images/heroes-search.jpg);
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+
+    .search-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+        filter: drop-shadow(0 0 2em #646cffaa);
+        border-color: rgba($color: #201d1d, $alpha: 0.8);
+        .img-container{
+            width: 45px;
+            height: 45px;
+            img {
+                width:100%;
+                height: 100%;
+            };
+            background-color: rgb(235, 235, 235);
+            border-radius: 50%;
+            padding-left: 5px;
+            padding-top: 5px;
+        }
+        .text-search-container{
+
+            box-shadow: #2b15453d 1px 10px 10px 5px;
+            input[type=text]{
+                height: 100%;
+            }
+        }
+    }
+}
+
+.search{
+    width: 100%
+}
+
+
+//4873888 op 7
+//ext. 18511
+
